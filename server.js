@@ -50,6 +50,7 @@ server.get('/', (req, res,next) => {
     });
 });
 server.get('/article',(req,res)=>{
+    console.log(req)
     res.render('context.ejs',{});
 });
 
